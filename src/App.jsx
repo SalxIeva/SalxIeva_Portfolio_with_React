@@ -1,5 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Navbar from './Components/Navbar';
 // imported components
 // import Header from './Pages/Header';
 // import About from './Pages/About';
@@ -7,9 +8,16 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 // import ProjectsPage from './Pages/ProjectsPage';
 // import Project from './Pages/Project'
 
+
 function App() {
-    return 
   // set up router
+ return (
+    <Router>
+        <div>
+            <Navbar />
+        </div>
+    </Router>
+  )
   // render header component
   // switch between routes?
   // home route (about componen)
