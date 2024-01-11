@@ -37,7 +37,14 @@ Hello! My name is Ieva Saldukaite and I am Front-End Developer!
         </p>
     </Col>
 </Row>
-At the moment I can work with HTML, CSS, Bootstrap, Javascript, Node.js, React but little projects and constant new resources are building my knowledge bigger and bigger every day!
+<Row>
+    <Col size="md-12">
+        <p>
+        At the moment I can work with HTML, CSS, Bootstrap, Javascript, Node.js, React but little projects and constant new resources are building my knowledge bigger and bigger every day!
+        </p>
+    </Col>
+</Row>
+
 </Container>
     
         </div>
