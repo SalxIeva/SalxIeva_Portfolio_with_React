@@ -1,10 +1,10 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 // imported components
-import Header from './Pages/Header';
-import HomePage from './Pages/HomePage';
-import About from './Pages/About';
-import Skills from './Pages/Skills';
+import Header from './Pages/Header.jsx';
+import HomePage from './Pages/HomePage.jsx';
+import About from './Pages/About.jsx';
+import Skills from './Pages/Skills.jsx';
 // import ProjectsPage from './Pages/ProjectsPage';
 // import Project from './Pages/Project'
 
