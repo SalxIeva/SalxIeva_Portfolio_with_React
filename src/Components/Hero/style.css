@@ -30,4 +30,12 @@
   font-size: 60px;
   padding-top: 140px;
   margin-top: 0;
+  text-align: left;
+  margin-left: 80px;
+}
+.hero h2 {
+  text-align: left;
+  margin-left: 82px;
+  font-size: 30px;
+  padding-top: 20px;
 }
