@@ -1,5 +1,5 @@
 import React from "react";
-import Hero from "../components/Hero";
+import Hero from "../components/Hero/";
 import backgroundImage from '../assets/IMG_5650.jpg';
 
 function HomePage() {
