@@ -1,7 +1,7 @@
 import React from "react";
-import Col from "../components/Col";
-import Row from "../components/Row";
-import Container from "../components/Container";
+import Col from "../components/Col/index.jsx";
+import Row from "../components/Row/index.jsx";
+import Container from "../components/Container/index.jsx";
 // display my name, 
 // display my headshot or avatar
 // display my statement or short description
