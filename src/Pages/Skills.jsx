@@ -1,7 +1,7 @@
 import React from "react";
-import Col from '../components/Col';
-import Row from '../components/Row';
-import Container from '../components/Container';
+import Col from "../components/Col";
+import Row from "../components/Row";
+import Container from "../components/Container";
 // list my technical and soft skills
 // might add icons or progress bars for visual representation of my skills
 // export skills
