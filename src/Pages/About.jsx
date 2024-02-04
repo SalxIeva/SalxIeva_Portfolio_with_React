@@ -26,7 +26,7 @@ Hello! My name is Ieva Saldukaite and I am Front-End Developer!
 <Row>
     <Col size="md-12">
         <p>
-        I have tried many carrers so far, including classical singing, arts, business perpectives.. At the moment I work as Head of Coffee/Manager, full time dog mom and study Front-End Development! This time I am hoping to make my last change in regards to career.
+        I have tried many carrers so far, including classical singing, arts, business perpectives.. At the moment I work as Head of Coffee/Manager, full time dog mom and just gaduated Skills for Life by edX Web Development bootcamp! This time I am hoping to make my last change in regards to career.
         </p>
     </Col>
 </Row>
