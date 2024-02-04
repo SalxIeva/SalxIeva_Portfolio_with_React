@@ -1,5 +1,5 @@
 import React from "react";
-import NavBar from "../components/Navbar";
+import NavBar from "../../components/Navbar";
 
 // should contain navBar
 // have to be able to navigate between different sections/pages of portfolio. (maybe add <Link> or <NavLink> and use react router)
