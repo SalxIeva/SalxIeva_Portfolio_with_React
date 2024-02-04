@@ -1,24 +1,28 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 // imported components
-import Header from './pages/Header.jsx';
-import HomePage from './pages/HomePage.jsx';
-import About from './pages/About.jsx';
-import Skills from './pages/Skills.jsx';
+import Header from './pages/Header';
+import HomePage from './pages/HomePage';
+import About from './pages/About';
+import Skills from './pages/Skills';
 // import ProjectsPage from './Pages/ProjectsPage';
 // import Project from './Pages/Project'
-
+// import Wrapper from './components/Wrapper';
 
 function App() {
   // set up router
  return (
     <Router>
-        <div>
-            
+      <div>
             <Header />
             <HomePage />
-            <About />
-            <Skills />
+            {/* <Wrapper> */}
+        <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/skills" element={<Skills />} />
+        </Routes>
+        {/* </Wrapper> */}
         </div>
     </Router>
   )
