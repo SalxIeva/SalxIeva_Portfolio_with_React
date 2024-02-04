@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Babylonica&display=swap');
+
+.navbar-content {
+    display: flex;
+}
+
+.navbar-brand {
+    margin-right: auto; 
+    font-family: 'Babylonica';
+    font-size: 35px !important;
+    padding-bottom: 0 !important;
+}
+
+.navbar-nav {
+    margin-left: auto; 
+    color: #F2ECE4;
+}
+
+.navbar-brand,
+.navbar-nav a.nav-link {
+    color: #F2ECE4 !important;
+    transition: color 0.3s;
+}
+
+.navbar-nav a.nav-link:hover {
+    color: #96505B !important; 
+}
+
+.nav-link {
+    font-size: 20px !important;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.navbar {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1)); 
+}
