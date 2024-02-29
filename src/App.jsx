@@ -5,7 +5,7 @@ import Header from './pages/Header/Header';
 import HomePage from './pages/HomePage';
 import About from './pages/About/About';
 import Skills from './pages/Skills/Skills';
-// import ProjectsPage from './Pages/ProjectsPage';
+import ProjectsPage from './pages/ProjectPage/ProjectsPage';
 // import Project from './Pages/Project'
 import Wrapper from './components/Wrapper';
 
@@ -21,6 +21,7 @@ function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="/about" element={<About />} />
           <Route path="/skills" element={<Skills />} />
+          <Route path="/projects" element={<ProjectsPage />} />
         </Routes>
         </Wrapper>
       </div>
